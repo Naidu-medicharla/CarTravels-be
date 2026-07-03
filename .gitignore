@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+venv/
+env/
+.venv/
+ENV/
+
+# Env Variables
+.env
+.env.*
+!.env.example
+
+# SQLite Databases
+*.sqlite3
+*.db
+car_travels.db
+
+# File uploads / static
+uploads/
+car_images/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temp files
+*.log
+scratch/
+
+# Build / Distribution
+build/
+dist/
+*.egg-info/

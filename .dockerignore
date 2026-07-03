@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Environment & secrets (use --env-file or Docker secrets instead)
+.env
+.env.*
+
+# Database & migration artifacts
+*.db
+*.sqlite
+car_travels.db
+migrate_mysql_to_pg.py
+add_*.py
+create_tables.py
+test_*.py
+
+# Version control
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node (if any tooling)
+node_modules/
+
+# Docker itself
+Dockerfile
+docker-compose*.yml
+.dockerignore
