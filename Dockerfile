@@ -25,7 +25,7 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1 \
     PORT=8000 \
     # Number of gunicorn workers (tune via env var on Fly.io)
-    WORKERS=2
+    WORKERS=1
 
 WORKDIR /app
 
